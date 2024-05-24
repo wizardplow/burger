@@ -20,7 +20,7 @@ const { firefox } = require('playwright');
 
     try {
       // Navigate to the specified URL
-      await page.goto('https://www.nola.com/entertainment_life/eat-drink/click-here-to-vote-in-the-times-picayune-burger-bracket-semifinals/html_bca604e6-16cd-11ef-8035-0743c58f0111.html');
+      await page.goto('https://www.nola.com/entertainment_life/eat-drink/vote-for-best-burger-in-new-orleans-louisiana/article_ff0ee944-0d66-11ef-8ec2-379be548083f.html');
       // Wait for the input field to appear on the page
     await page.waitForSelector('input[name="Enter response"]');
 
