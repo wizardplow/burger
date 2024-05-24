@@ -5,7 +5,6 @@ const { firefox } = require('playwright');
   const browser = await firefox.launch({ headless: true }); // Set headless to true if you don't want to see the browser
   let votes = 0;
 
-  
   // Create a new browser context with notifications blocked
   const context = await browser.newContext({
     permissions: ['geolocation'], // you can add other permissions if needed
