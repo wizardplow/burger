@@ -13,6 +13,7 @@ const { firefox } = require('playwright');
   // Block notifications
   await context.grantPermissions([], { origin: 'https://www.nola.com' });
 
+  
   // Define the main function to be run in a loop
   async function performActions() {
     const page = await context.newPage();
