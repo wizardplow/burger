@@ -1,7 +1,6 @@
 name: Playwright Bot
 
 on: [push]
-
 jobs:
   run-bot:
     runs-on: ubuntu-latest
